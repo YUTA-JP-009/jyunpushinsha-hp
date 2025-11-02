@@ -54,12 +54,15 @@ components/
 ## 環境変数（.env.local）
 
 ```env
-RESEND_API_KEY=re_3zAD22en_57gn5NQguyfqNtajEkiMMpvq
+RESEND_API_KEY=your-resend-api-key-here
 EMAIL_FROM=yuta.sakamoto@jyunpushinsha.com
 EMAIL_TO=yuta.sakamoto@jyunpushinsha.com
 ```
 
-**注意**: .env.localはGitに含まれません（.gitignore設定済み）
+**重要**:
+- .env.localはGitに含まれません（.gitignore設定済み）
+- APIキーは絶対にGitにコミットしないこと
+- Resendダッシュボードで新しいAPIキーを発行して使用
 
 ## Vercel環境変数設定
 
